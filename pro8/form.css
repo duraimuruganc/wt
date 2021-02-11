@@ -1,0 +1,29 @@
+input[type=text], select {
+  width: 25%;
+  
+}
+
+input[type=submit] {
+  width: 25%;
+  padding: 10px 10px;
+}
+input[type=reset] {
+  width: 25%;
+  padding: 10px 10px;
+}
+div {
+  border-radius: 5px;
+  padding: 5px;
+
+}
+body{
+	background-color: orange;
+	opacity: 1;
+	font-family: Verdana;
+	font-size: 20px;
+}
+.text
+{
+
+	color: white;
+}

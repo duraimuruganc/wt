@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+img {
+  border: 5px solid #555;
+}
+.text {
+  font-family: Impact;
+  font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<center><h2>SuperHero's</h2></center>
+
+<div class="row">
+  <div class="column">
+    <center><p class="text">Spider-Man</p></center>
+    <a href="spidey.html"><img src="spidey.jpg" alt="spidey" style="width:100%"></a>
+  </div>
+  <div class="column">
+     <center><p class="text">Captain America</p></center>
+    <a href="caption.html"><img src="captain.jpg" alt="captain" style="width:100%"></a>
+  </div>
+  <div class="column">
+     <center><p class="text">Hulk</p></center>
+    <a href="hulk.html"><img src="hulk.jpg" 
+    alt="hulk" style="width:100%"></a>
+  </div>
+  <div class="column">
+     <center><p class="text">Iron-Man</p></center>
+    <a href="ironman.html"><img src="ironman.jpg" alt="ironman" style="width:100%"></a>
+  </div>
+</div>
+
+</body>
+</html>
